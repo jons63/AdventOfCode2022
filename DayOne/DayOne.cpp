@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
      }
 
     int elf = 0;
-    std::vector<int> elfs = {};
+    std::vector<int> elves = {};
     std::string line;
 
     while (std::getline(dataFile, line))
@@ -31,19 +31,19 @@ int main(int argc, char *argv[])
         }
         else
         {
-            elfs.push_back(elf);  
+            elves.push_back(elf);  
             elf = 0;
         }
     }
 
     dataFile.close();
 
-    std::sort(elfs.begin(), elfs.end(), std::greater<int>());
+    std::sort(elves.begin(), elves.end(), std::greater<int>());
     
-    std::cout << "The top three elfs are carrying:\n" 
-    << "    " << elfs[0] << " calories\n"
-    << "    " << elfs[1] << " calories\n"
-    << "    " << elfs[2] << " calories\n"
+    std::cout << "The top three elves are carrying:\n" 
+    << "    " << elves[0] << " calories\n"
+    << "    " << elves[1] << " calories\n"
+    << "    " << elves[2] << " calories\n"
     << "and combined they are carrying " 
-    << elfs[0]+elfs[1]+elfs[2] << " calories" << std::endl;
+    << elves[0]+elves[1]+elves[2] << " calories" << std::endl;
 }
