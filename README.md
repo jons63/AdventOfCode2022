@@ -5,3 +5,9 @@ Language used: C++.
 Day one problem: https://adventofcode.com/2022/day/1.
 ## Day Two
 Day two problem: https://adventofcode.com/2022/day/2.
+## Day Three
+Day two problem: https://adventofcode.com/2022/day/3.
+## Day Four
+Day two problem: https://adventofcode.com/2022/day/4.
+## Day Five
+Day two problem: https://adventofcode.com/2022/day/5.
