@@ -11,3 +11,5 @@ Day two problem: https://adventofcode.com/2022/day/3.
 Day two problem: https://adventofcode.com/2022/day/4.
 ## Day Five
 Day two problem: https://adventofcode.com/2022/day/5.
+## Day Six
+Day two problem: https://adventofcode.com/2022/day/5.
